@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>TCM Formula Groups &amp; Molecular Mechanisms - TCM Formulas in Delaying Aging — Wiki</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A curated wiki distilling Jin et al. (2026, JCMM): TCM formulas, the 14 hallmarks of aging, bioactive constituents, and translational perspectives">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Wiki Home</a></li><li class="chapter-item expanded affix "><a href="../about.html">About the Paper</a></li><li class="chapter-item expanded affix "><li class="part-title">Concepts</li><li class="chapter-item expanded "><a href="../concepts/tcm-aging-theories.html"><strong aria-hidden="true">1.</strong> Classical TCM Theories of Aging</a></li><li class="chapter-item expanded "><a href="../concepts/hallmarks-mapping.html"><strong aria-hidden="true">2.</strong> Mapping TCM Onto the 14 Hallmarks of Aging</a></li><li class="chapter-item expanded "><a href="../concepts/formula-groups.html" class="active"><strong aria-hidden="true">3.</strong> TCM Formula Groups & Molecular Mechanisms</a></li><li class="chapter-item expanded "><a href="../concepts/active-constituents.html"><strong aria-hidden="true">4.</strong> Bioactive Constituents & Multi-Compound Synergy</a></li><li class="chapter-item expanded "><a href="../concepts/methods.html"><strong aria-hidden="true">5.</strong> Methodological Innovations</a></li><li class="chapter-item expanded "><a href="../concepts/challenges-roadmap.html"><strong aria-hidden="true">6.</strong> Challenges & Translational Roadmap</a></li><li class="chapter-item expanded affix "><li class="part-title">Source</li><li class="chapter-item expanded "><a href="../sources/pmc-13620404-fulltext.html"><strong aria-hidden="true">7.</strong> Full Text — PMC13620404</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">TCM Formulas in Delaying Aging — Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="tcm-formula-groups--molecular-mechanisms"><a class="header" href="#tcm-formula-groups--molecular-mechanisms">TCM Formula Groups &amp; Molecular Mechanisms</a></h1>
+<p><em>Source: <a href="../sources/pmc-13620404-fulltext.html">§4 of the paper</a></em></p>
+<p>Representative formulas are categorized into <strong>four mechanistic groups</strong> (emphasizing each formula's predominant mechanism while acknowledging their multi-target network nature):</p>
+<ol>
+<li><strong>Mitochondrial homeostasis &amp; autophagy modulators</strong></li>
+<li><strong>Cellular senescence &amp; inflammatory-microenvironment modulators</strong></li>
+<li><strong>Stem-cell maintenance &amp; epigenetic reprogramming modulators</strong></li>
+<li><strong>Gut microecology &amp; systemic-metabolism modulators</strong></li>
+</ol>
+<h2 id="group-1--mitochondrial-homeostasis--autophagy"><a class="header" href="#group-1--mitochondrial-homeostasis--autophagy">Group 1 — Mitochondrial Homeostasis &amp; Autophagy</a></h2>
+<ul>
+<li><strong>Zuogui Pill (ZGP) / Yougui Pill (YGP):</strong> classic kidney-tonifying prescriptions (nourish kidney yin / warm kidney yang). In <em>C. elegans</em>, both extend healthspan via <strong>PINK1/Parkin-mediated mitophagy</strong>. Organ-specific: in AD mice ZGP inhibits Drp1-mediated mitochondrial fission, activates AMPK/PGC-1α biogenesis; in ovary/testis reduces oxidative damage, restores mitochondrial membrane potential; in joints (YGP) promotes chondrocyte autophagic clearance. ZGP also maintains ovarian/BMSC stemness via Notch1/Nrf2 and SIRT1, reducing SASP and DNA damage.</li>
+<li><strong>Kaixin San (KXS):</strong> targets neuronal mitochondrial homeostasis + gut–brain axis. In brain: PINK1/Parkin autophagy in AD mice; in polyQ <em>C. elegans</em>: heat-shock response + autophagy clears polyQ aggregates; ginsenoside components support folate metabolism via DHFR → SIRT3 upregulation; attenuates neuroinflammation and inhibits ferroptosis (NLRP3/caspase-1/GSDMD, SIRT1/FSP1). In AD patients, restores gut-microbiota composition → cognitive improvement.</li>
+<li><strong>Guiqi Shen (GQS):</strong> modern oral liquid. The paper traces it to the Ming-dynasty formula Guilu Erxian Jiao, later refined with Astragalus and Salvia; qi-blood replenishing, yin-yang harmonizing. Guilu Erxian Jiao itself is the separate formula GEG, below. In chronic fatigue syndrome: markedly effective rate <strong>55.56%</strong>; regulates intestinal oxidative stress → intestinal stem-cell homeostasis. Key constituents: <strong>ginseng acidic polysaccharide WGPA-A</strong> (reverses mitochondrial structural degeneration in striated muscle; ↓MDA/LDH, ↑SOD/GPX); <strong>ginsenoside Rg1</strong> (microglial mitophagy via PINK1/Parkin, inhibits NLRP3); <strong>astragaloside IV</strong> (AMPK activation, mitochondrial function).</li>
+</ul>
+<h2 id="group-2--cellular-senescence--inflammatory-microenvironment"><a class="header" href="#group-2--cellular-senescence--inflammatory-microenvironment">Group 2 — Cellular Senescence &amp; Inflammatory Microenvironment</a></h2>
+<ul>
+<li><strong>Buyang Huanwu Decoction (BYHWD; cerebrovascular/cardiovascular use):</strong> targets the <strong>SASP–inflammation axis</strong> — SIRT1 activation suppresses SASP factors (IL-1β, TNF-α, IL-6), downregulates p16/p21; modulates TLR4/NF-κB/NLRP3, CaM/CaMKII/MAPK, p53/cGAS/STING cascades. Uniquely: exosomal <strong>miR-590-5p → SLC8A3</strong> reprograms macrophages <strong>M1→M2</strong>. Also: AMPK/Drp1 mitochondrial dynamics; SIRT1/AMPK cerebral glucose metabolism; MMP-9/TIMP-1 ECM normalization.</li>
+<li><strong>Liuwei Dihuang Wan (LWDHW, classic Kidney-Yin-nourishing formula):</strong> multi-organ anti-aging network centered on senescence + chronic inflammation: ovary (SIRT1/PI3K/AKT), testis (AMPK/SIRT1/NF-κB), bone (YAP-autophagy axis in BMSCs, osteogenic differentiation), brain (microglial inflammation, cAMP/PKA/CREB), vasculature (DNMT1-mediated ERα methylation inhibition → endothelial protection), autophagy (ATG5/Beclin1/LC3B via PI3K/Akt/FoxO3a), gut (restores Lactobacillus, ↓Proteobacteria).</li>
+</ul>
+<h2 id="group-3--stem-cell-maintenance--epigenetic-reprogramming"><a class="header" href="#group-3--stem-cell-maintenance--epigenetic-reprogramming">Group 3 — Stem Cell Maintenance &amp; Epigenetic Reprogramming</a></h2>
+<ul>
+<li><strong>Bazi Bushen Capsules (BZBC):</strong> randomized trial in 530 healthy adults: <strong>telomerase activity +76.7% ≈ 5-year physiological age reversal</strong>; in aged mice reversed DNA-methylation age, upregulated skin stemness markers (OCT4, SOX2, NANOG, COL17A1); SIRT3-dependent DHRS2 deacetylation links epigenetics to mitochondria; suppresses NLRP3 + p16/p21; gut-microbiota–spermidine axis (enriches <em>Akkermansia muciniphila</em>); inhibits microglial inflammatory polarization.</li>
+<li><strong>Guilu Erxian Jiao / GEG (replenish essence, benefit marrow):</strong> directly targets <strong>haematopoietic stem cell (HSC) aging</strong>: inhibits p16 via histone methylation at the p16INK4a promoter → maintains HSC self-renewal; modulates SLAM–SAP pathway (T-cell IFN-γ control); restores chondrocyte autophagic flux + mitochondrial function via AMPK/mTOR/ULK1, PINK1/Parkin. Targets six hallmarks: stem-cell exhaustion, mitochondrial dysfunction, impaired autophagy, altered intercellular communication, inflammation, cellular senescence.</li>
+</ul>
+<h2 id="group-4--gut-microecology--systemic-metabolism"><a class="header" href="#group-4--gut-microecology--systemic-metabolism">Group 4 — Gut Microecology &amp; Systemic Metabolism</a></h2>
+<ul>
+<li><strong>Sijunzi Decoction (SJZD, spleen-invigorating, qi-supplementing):</strong> restores gut homeostasis in aged rats (↑Lactobacillus/Bifidobacterium + SCFAs) → alleviates systemic inflammation/oxidative stress; brain: upregulates Beclin-1/LC3-II hippocampal neuroprotection; skin: prevents UVB photoaging (↑collagen/elastic fibers, ↓MDA/ROS, ↑CAT/T-SOD); bone/hair: inhibits PI3K-AKT, p38 MAPK.</li>
+<li><strong>Yishen Huashi Granule (YSHSG, from Li Dongyuan's Shengyang Yiwei Tang; gut–kidney axis):</strong> in diabetic kidney disease: restores gut dysbiosis (↑Lactobacillus, ↓Firmicutes/Bacteroidetes), ↓intestinal permeability, ↓uremic toxins (indoxyl sulfate); ↑miR-339-5p inhibits TGF-β1/Smad → reduces renal fibrosis; improves mitophagy via mTOR/AMPK/PI3K/Akt.</li>
+</ul>
+<p><strong>Cross-links:</strong> <a href="tcm-aging-theories.html">TCM aging theories</a> · <a href="hallmarks-mapping.html">Hallmarks mapping</a> · <a href="active-constituents.html">Active constituents</a> · <a href="methods.html">Methods</a> · <a href="challenges-roadmap.html">Challenges &amp; roadmap</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../concepts/hallmarks-mapping.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../concepts/active-constituents.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../concepts/hallmarks-mapping.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../concepts/active-constituents.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
