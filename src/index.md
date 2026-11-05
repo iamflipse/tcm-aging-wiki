@@ -1,9 +1,9 @@
 # TCM Formulas in Delaying Aging — Wiki
 
 > A curated wiki distilling the 2026 *Journal of Cellular and Molecular Medicine* review:
-> **Traditional Chinese Medicine Formulas in Delaying Aging: From Theoretical Foundations to Molecular Mechanisms and Translational Perspectives** (Jin et al., JCMMS 2026, open access CC-BY; PMC13620404).
+> **Traditional Chinese Medicine Formulas in Delaying Aging: From Theoretical Foundations to Molecular Mechanisms and Translational Perspectives** (Jin et al., JCMM 2026, open access CC-BY; PMC13620404).
 
-The paper's central claim: TCM formulas act through **multi-component, multi-target, multi-pathway synergy**, and this review maps classical TCM gerontology onto the **14 hallmarks of aging** (López-Otín framework), catalogs representative formulas by mechanistic group, and lays out a translational roadmap.
+The paper's central claim: TCM formulas act through **multi-component, multi-target, multi-pathway synergy**, and this review maps classical TCM gerontology onto the review's **14 hallmarks of aging** (the 12 from López-Otín 2023, plus extracellular-matrix changes and social-psychological isolation), catalogs representative formulas by mechanistic group, and lays out a translational roadmap.
 
 ## Concepts
 

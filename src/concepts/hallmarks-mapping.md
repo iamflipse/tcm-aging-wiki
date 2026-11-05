@@ -4,7 +4,7 @@
 
 ## The 14 hallmarks of aging
 
-Aging is conceptualized as a process driven by interconnected molecular features, articulated and expanded by **López-Otín and colleagues**. The 14 hallmarks:
+The review counts 14 hallmarks and attributes the list to **López-Otín and colleagues**. The 2023 López-Otín paper lists 12. This review adds the last two: changes in the extracellular matrix, and social-psychological isolation.
 
 1. Genomic instability
 2. Telomere attrition

@@ -27,41 +27,25 @@ Aging is a systemic decline in physiological integrity, driving chronic diseases
 Keywords: aging biomarkers, anti‐aging, cellular senescence, mitophagy, multi‐omics integration, network pharmacology, traditional Chinese medicine formula
 
 #### Abbreviations
-Alzheimer's disease
 
-Bone marrow mesenchymal stem cells
-
-Buyang Huanwu Decoction
-
-Bazi Bushen capsules
-
-Caenorhabditis elegans
-
-Guilu Erxian Glue
-
-Guiqi Shen
-
-Haematopoietic stem cells
-
-Kaixin San
-
-Liuwei Dihuang Wan
-
-Senescence‐associated secretory phenotype
-
-Senescence‐associated β‐galactosidase
-
-Sijunzi Decoction
-
-Traditional Chinese medicine
-
-Trimethylamine
-
-Yougui Pill
-
-Yishen Huashi Granule
-
-Zuogui Pill
+- **AD** — Alzheimer's disease
+- **BMSCs** — bone marrow mesenchymal stem cells
+- **BYHWD** — Buyang Huanwu Decoction
+- **BZBC** — Bazi Bushen capsules
+- **C. elegans** — Caenorhabditis elegans
+- **GEG** — Guilu Erxian Glue
+- **GQS** — Guiqi Shen
+- **HSCs** — haematopoietic stem cells
+- **KXS** — Kaixin San
+- **LWDHW** — Liuwei Dihuang Wan
+- **SASP** — senescence-associated secretory phenotype
+- **SA-β-gal** — senescence-associated β-galactosidase
+- **SJZD** — Sijunzi Decoction
+- **TCM** — traditional Chinese medicine
+- **TMA** — trimethylamine
+- **YGP** — Yougui Pill
+- **YSHSG** — Yishen Huashi Granule
+- **ZGP** — Zuogui Pill
 
 ### 1. Introduction
 Population aging is becoming the most severe global challenge of the 21st century [1]. The World Health Organization predicts that by 2030, the global population aged 60 and above will exceed 1.4 billion, and by 2050, this number will reach 2.1 billion [2, 3]. Aging is not a single event, but a complex biological process driven by a series of interrelated molecular dysbiosis, protein homeostasis loss, chronic inflammation, oxidative stress, mitochondrial dysfunction, cellular aging, and nutrient perception disorders, which collectively accelerate the decline of body function and significantly increase susceptibility to age‐related diseases such as neurological, cardiovascular, metabolic, musculoskeletal, and immune system disorders [4, 5]. In recent years, some synthetic drugs have shown anti‐aging potential in preclinical and clinical studies, such as metformin, which can prolong the lifespan of model organisms and improve human health [6, 7]. However, these drugs generally face bottlenecks such as unclear long‐term safety and low preventive acceptance among healthy populations, and their single target mode of action is difficult to cope with the systemic characteristics of the aging network [7, 8].
@@ -105,27 +89,27 @@ Mapping core TCM aging theories to the 14 biological hallmarks of aging.
 | The classic theory of aging in TCM | Hallmarks of aging | Mechanisms | References |
 | --- | --- | --- | --- |
 | Kidney essence depletion theory | Genomic instability | Reduced NAD+ mediates the inhibition of PARP1 activity, which results in increased DNA damage | [46, 47, 50, 57] |
-| Telomere attrition | Reduced NAD+ affects the TRF2‐mediated telomere fusion process | [46, 48, 57] |  |
-| Epigenetic alterations | Reduced NAD+ inhibits SIRT1‐mediated deacetylation repair | [45, 46, 49] |  |
-| Disabled macroautophagy | NAD+ decreases and inhibits mTORC1‐AMPK‐ULK1 | [46, 51, 52] |  |
-| Mitochondrial dysfunction | The decrease of NAD+ exacerbates mitochondrial RNA leakage and reduces mitochondrial function | [41, 46, 53] |  |
-| Stem cell exhaustion | Klotho protein reduction inhibits Wnt/β‐atenin signalling in stem cells | [54, 55, 56] |  |
+| Kidney essence depletion theory | Telomere attrition | Reduced NAD+ affects the TRF2‐mediated telomere fusion process | [46, 48, 57] |
+| Kidney essence depletion theory | Epigenetic alterations | Reduced NAD+ inhibits SIRT1‐mediated deacetylation repair | [45, 46, 49] |
+| Kidney essence depletion theory | Disabled macroautophagy | NAD+ decreases and inhibits mTORC1‐AMPK‐ULK1 | [46, 51, 52] |
+| Kidney essence depletion theory | Mitochondrial dysfunction | The decrease of NAD+ exacerbates mitochondrial RNA leakage and reduces mitochondrial function | [41, 46, 53] |
+| Kidney essence depletion theory | Stem cell exhaustion | Klotho protein reduction inhibits Wnt/β‐atenin signalling in stem cells | [54, 55, 56] |
 | Kidney deficiency and blood stasis theory | Disabled macroautophagy | Overexpression of HIF‐1α impairs autophagy and lysosome function | [58, 59, 60] |
-| Mitochondrial dysfunction | HIF‐1α inhibits the activity of mitochondrial respiratory chain complex I/IV, leading to a decrease in ATP synthesis | [50, 61, 62] |  |
-| Chronic inflammation | Activate NLRP3 inflammasome | [63, 64, 65] |  |
-| Changes in the extracellular matrix | Hypoxia and inflammatory factors upregulate TGF‐β1/Smad signalling, disrupting MMPs/TIMPs balance | [66, 67, 68, 69] |  |
+| Kidney deficiency and blood stasis theory | Mitochondrial dysfunction | HIF‐1α inhibits the activity of mitochondrial respiratory chain complex I/IV, leading to a decrease in ATP synthesis | [50, 61, 62] |
+| Kidney deficiency and blood stasis theory | Chronic inflammation | Activate NLRP3 inflammasome | [63, 64, 65] |
+| Kidney deficiency and blood stasis theory | Changes in the extracellular matrix | Hypoxia and inflammatory factors upregulate TGF‐β1/Smad signalling, disrupting MMPs/TIMPs balance | [66, 67, 68, 69] |
 | Qi‐blood theory | Deregulated nutrient sensing | Elevated AMP/ATP ratio inhibits AMPK‐mTORC1 pathway | [70, 71, 72, 73] |
-| Mitochondrial dysfunction | Decreased mitochondrial quality and ATP level | [74, 75, 76] |  |
-| Cellular senescence | Inflammatory response mediates increased expression of p16INK4a, leading to G1 phase cell cycle arrest | [77, 78] |  |
-| Stem cell exhaustion | Exhaustion of haematopoietic and mesenchymal stem cells | [74, 79, 80] |  |
-| Altered intercellular communication | The decline in astrocyte function and glutamate release affects the functional interaction between neurons and astrocytes | [81, 82, 83] |  |
-| Psychosocial isolation | Inflammatory response mediates reduced metabolic flexibility and exacerbates social isolation | [84, 85, 86, 87] |  |
+| Qi‐blood theory | Mitochondrial dysfunction | Decreased mitochondrial quality and ATP level | [74, 75, 76] |
+| Qi‐blood theory | Cellular senescence | Inflammatory response mediates increased expression of p16INK4a, leading to G1 phase cell cycle arrest | [77, 78] |
+| Qi‐blood theory | Stem cell exhaustion | Exhaustion of haematopoietic and mesenchymal stem cells | [74, 79, 80] |
+| Qi‐blood theory | Altered intercellular communication | The decline in astrocyte function and glutamate release affects the functional interaction between neurons and astrocytes | [81, 82, 83] |
+| Qi‐blood theory | Psychosocial isolation | Inflammatory response mediates reduced metabolic flexibility and exacerbates social isolation | [84, 85, 86, 87] |
 | Spleen‐stomach theory | Deregulated nutrient sensing | Disruption of intestinal epithelial tight junction proteins promotes the translocation of LPS into the bloodstream, leading to metabolic endotoxemia; Insufficient intake of leucine and short‐chain fatty acids | [88, 89, 90, 91] |
-| Loss of proteostasis | Leucine deficiency weakens the phosphorylation of 4E‐BP1/S6K1 and inhibits the synthesis of new proteins | [92, 93, 94] |  |
-| Mitochondrial dysfunction | Oxidative stress intensifies, SOD activity decreases, MDA content increases | [95, 96] |  |
-| Chronic inflammation | Systemic Th1/Th2 immune imbalance and bias toward Th2 polarization | [97, 98] |  |
-| Genomic Instability | Elevated 8‐hydroxydeoxyguanosine and aggravated mtDNA damage | [99, 100] |  |
-| Dysbiosis | Continuous compensatory activation of AMPK mediates downregulation of beneficial bacteria such as Bifidobacterium and Lactobacillus | [91, 101, 102] |  |
+| Spleen‐stomach theory | Loss of proteostasis | Leucine deficiency weakens the phosphorylation of 4E‐BP1/S6K1 and inhibits the synthesis of new proteins | [92, 93, 94] |
+| Spleen‐stomach theory | Mitochondrial dysfunction | Oxidative stress intensifies, SOD activity decreases, MDA content increases | [95, 96] |
+| Spleen‐stomach theory | Chronic inflammation | Systemic Th1/Th2 immune imbalance and bias toward Th2 polarization | [97, 98] |
+| Spleen‐stomach theory | Genomic Instability | Elevated 8‐hydroxydeoxyguanosine and aggravated mtDNA damage | [99, 100] |
+| Spleen‐stomach theory | Dysbiosis | Continuous compensatory activation of AMPK mediates downregulation of beneficial bacteria such as Bifidobacterium and Lactobacillus | [91, 101, 102] |
 
 ##### 3.3.2. Kidney Deficiency and Blood Stasis Theory
 Building upon the ‘Kidney Essence Depletion Theory’, the ‘Kidney Deficiency and Blood Stasis Theory’ extends this framework by emphasizing a positive feedback loop between deficiency and stasis [56, 103]. Kidney deficiency reduces NO bioavailability and increases ET‐1, leading to microvascular spasm and decreased erythrocyte deformability, resulting in chronic hypoxia and outer matrix sclerosis, characterized by chronic inflammation, extracellular matrix changes, and mitochondrial dysfunction. Hypoxia and accumulated damage‐associated molecular patterns activate the NLRP3 inflammasome, promote the release of IL‐1β/IL‐18, and maintain a low‐grade inflammatory state [61, 63, 64, 65]. Then hypoxia synergizes with inflammatory factors to upregulate TGF‐β1/Smad signalling, drive fibroblasts to transform into myofibroblasts, and break the balance of MMPs/TIMPs, resulting in abnormal cross‐linking of collagen and extracellular matrix sclerosis [66, 67, 68, 69]. In addition, hypoxia regulator HIF‐1α inhibits mitochondrial respiratory chain complex I/IV activity, resulting in decreased ATP synthesis [61, 62, 69], increased lysosomal membrane permeability, hindered autophagosome lysosome fusion, and exacerbated impaired autophagic flux [58, 59] (Table 1).
@@ -148,12 +132,12 @@ Representative TCM formulas modulate the hallmarks and mechanisms of aging.
 | Hallmarks of aging | Representative TCM formulas | Mechanisms | References |
 | --- | --- | --- | --- |
 | Genomic instability | ZGP and YGP | Inhibit DNA damage signals mediated by γ‐H2AX and CHEK2, and promote DNA damage repair | [105] |
-| BZBC | Inhibition of DNA damage marker gamma H2AX accumulation | [15] |  |
+| Genomic instability | BZBC | Inhibition of DNA damage marker gamma H2AX accumulation | [15] |
 | Telomere attrition | BZBC | In a randomized double‐blind trial, it can activate telomerase | [16] |
-| Eight‐treasure soup | Upregulation of DNA helicase expression facilitates G‐quadruplex and telomere maintenance | [106] |  |
+| Telomere attrition | Eight‐treasure soup | Upregulation of DNA helicase expression facilitates G‐quadruplex and telomere maintenance | [106] |
 | Epigenetic alterations | LWDHW | Inhibition of DNMT1 expression and ER‐α gene methylation | [107] |
-| BZBC | Regulating DNA methylation levels; Regulating DHRS2 deacetylation and eNOS Thr495 phosphorylation | [18, 19] |  |
-| GEG | Regulating histone methylation levels in the promoter region of the p16Ink4a gene | [108] |  |
+| Epigenetic alterations | BZBC | Regulating DNA methylation levels; Regulating DHRS2 deacetylation and eNOS Thr495 phosphorylation | [18, 19] |
+| Epigenetic alterations | GEG | Regulating histone methylation levels in the promoter region of the p16Ink4a gene | [108] |
 | Loss of proteostasis | LWDHW | Activate the YAP‐autophagy axis | [13] |
 |  | BZBC | Inhibition of protein kinase Cδ | [19] |
 |  | BYHWD | Regulating TLR4/NF‐KB/NLRP3, AMPK, gut microbiota‐C/EBP β/AEP signalling pathways | [109, 110] |

@@ -8,7 +8,7 @@ Jin C, Du D, Yu X, Ji X, Zhang X, Li A, Zu S, Qu B, Zhao D, Wu D, Liu M.
 
 ## Publication details
 
-- **Journal:** Journal of Cellular and Molecular Medicine (JCMMS)
+- **Journal:** Journal of Cellular and Molecular Medicine (JCMM)
 - **Type:** Review (systematic, evidence-based)
 - **Dates:** received 2026-05-22, revised 2026-09-06, accepted 2026-09-10, collection date 2026-10
 - **Open access:** Yes — CC-BY 4.0; full text also indexed in PMC (PMC13620404)
